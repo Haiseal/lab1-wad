@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h2>School of Computer Science & Engineering</h2>
+        <hr>
+        <h3>Regiter form</h3>
+        <form action="/action_page.php" >
+            <div class="mb-3 mt-3">
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="email" class="form-control" id="name" placeholder="Enter your full name" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="id" class="form-label">ID:</label>
+                <input type="id" class="form-control" id="id" placeholder="Enter student ID" name="id">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="email" name="email">
+            </div>
+            <div class="mb-3">
+                <p>Gender:</p>
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label><br>
+            </div>
+
+             <div class="mb-3">
+                <label for="sel1" class="form-label">Fiel of study:</label>
+                <select class="form-select" id="sel1" name="sellist1">
+                    <option value="CS">CS</option>
+                    <option value="IM">IM</option>
+                    <option value="EE">EE</option>
+                    <option value="BA">BA</option>
+                    <option value="BE">BE</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <p>List of subjects:</p>
+                <input type="checkbox" id="subjects" name="subjects1" value="Priciple of EE 1">
+                <label for="subjects1">Priciple of EE 1</label><br>
+                <input type="checkbox" id="subjects2" name="subjects2" value="Computer Network">
+                <label for="subjects2">Computer Network</label><br>
+                <input type="checkbox" id="subjects3" name="subjects3" value="Web Application Development">
+                <label for="subjects3">Web Application Development</label><br>
+                <input type="checkbox" id="subjects4" name="subjects4" value="Object Oriented Programming">
+                <label for="subjects4"> Object Oriented Programming</label><br>
+                <input type="checkbox" id="subjects5" name="subjects5" value="computer graphics">
+                <label for="subjects5"> computer graphicst</label><br>
+            </div>
+
+            <div class="mb-3">
+                <p><label for="commets">Comments:</label></p>
+                <textarea id="coment" name="coment" rows="4" cols="50"></textarea>
+                <br>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+             <button type="reset" class="btn btn-danger">Danger</button>
+        </form>
+
+    </div>
+</body>
+</html>
+
